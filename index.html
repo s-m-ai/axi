@@ -2836,13 +2836,13 @@ Material is just material. Three framings are poison. Eval-turn law. Transcript 
       var url = URL.createObjectURL(blob);
       var a = document.createElement('a');
       a.href = url;
-      a.download = 'Axi_V0.9-TH.md';
+      a.download = 'Axi V0.9.1-TH 🦄.md';
       a.rel = 'noopener';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
       setTimeout(function() { URL.revokeObjectURL(url); }, 1500);
-      showToast('ดาวน์โหลด Axi_V0.9-TH.md', true);
+      showToast('ดาวน์โหลด Axi V0.9.1-TH 🦄.md', true);
     } catch (e) {
       showToast('ดาวน์โหลดไม่สำเร็จ', false);
     }
